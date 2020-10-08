@@ -33,3 +33,14 @@
   z-index: 0;
   opacity: 0.15;
 }
+
+.logo {
+  height: 5rem;
+  margin: 0 1rem;
+  filter: saturate(25%);
+}
+
+.logo:hover {
+  transition-duration: 200ms;
+  filter: saturate(1);
+}
