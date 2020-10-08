@@ -2,3 +2,25 @@
 * {
   margin: 0;
 }
+
+.name {
+  margin-top: -1.5rem;
+}
+
+.job {
+  border-top: 1px solid;
+}
+
+.svg {
+  width: 25%;
+}
+
+#svg-1 {
+  top: 0;
+  left: 3rem;
+}
+
+#svg-2 {
+  bottom: 3rem;
+  right: 2rem;
+}
