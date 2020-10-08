@@ -17,10 +17,19 @@
 
 #svg-1 {
   top: 0;
-  left: 3rem;
+  left: 5rem;
 }
 
 #svg-2 {
   bottom: 3rem;
-  right: 2rem;
+  right: 6rem;
+}
+
+.back-square {
+  width: 40rem;
+  height: 25rem;
+  position: absolute;
+  background-color: #ed8936;
+  z-index: 0;
+  opacity: 0.15;
 }
