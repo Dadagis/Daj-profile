@@ -40,7 +40,12 @@
   filter: saturate(25%);
 }
 
-.logo:hover {
-  transition-duration: 200ms;
+.logo-anim {
+  transition: all 0.2s ease-in-out;
+}
+
+.logo-anim:hover {
+  /* transition-duration: 200ms; */
   filter: saturate(1);
+  transform: rotate(15deg);
 }
