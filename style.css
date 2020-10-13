@@ -46,6 +46,31 @@
   transform: rotate(15deg);
 }
 
+@media (min-width: 768px) {
+  .back-square {
+    width: 28rem;
+    height: 25rem;
+    position: absolute;
+    background-color: #ed8936;
+    z-index: 0;
+    opacity: 0.15;
+  }
+
+  .name {
+    margin-top: -1rem;
+  }
+
+  .svg {
+    width: 30%;
+  }
+
+  .logo {
+    height: 4rem;
+    margin: 0 0.5rem;
+    filter: saturate(25%);
+  }
+}
+
 @media (min-width: 1024px) {
   .logo {
     height: 5rem;
