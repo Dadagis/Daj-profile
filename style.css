@@ -105,3 +105,25 @@
     right: 6rem;
   }
 }
+
+@media (min-width: 2000px) {
+  .text {
+    font-size: xx-large;
+  }
+
+  #img1 {
+    width: 37%;
+  }
+
+  #img2 {
+    width: 55%;
+  }
+
+  #img-div1 {
+    grid-column: span 6 / span 6;
+  }
+
+  #text-div1 {
+    grid-column: span 6 / span 6;
+  }
+}

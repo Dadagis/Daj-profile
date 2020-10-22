@@ -50,14 +50,14 @@
     <div class="mx-8 md:mx-24 lg:mx-32 text-justify">
       <h2 class="text-3xl text-gray-800">Mon parcours</h2>
       <div class="text-xl font-thin text-gray-800">
-        <p class="py-8">
+        <p class="py-8 text">
           De formation initiale en tant que chargé d'affaires dans le domaine de
           l'électricité industrielle, ainsi qu'un passage dans le monde de la
           fibre optique pendant 2 ans ; j'ai décidé de me ré-orienter dans le
           milieu du développement Web afin de retrouver une composante
           essentielle au travail : la réflexion.
         </p>
-        <p class="py-8">
+        <p class="py-8 text">
           Dans cette optique, j'ai suivi une formation au Wagon Lyon pendant 9
           semaines bien chargées. On m'y a enseigné les principaux fondamentaux
           du code grâce au langage Ruby et au framework Rails. Mais c'est
@@ -65,7 +65,7 @@
           en retirer, et je pense maintenant disposer de toutes les clés pour
           être capable de continuer mon apprentissage en autonomie.
         </p>
-        <p class="py-8">
+        <p class="py-8 text">
           J'ai aujourd'hui la certitude que le milieu du développement Web est
           celui dans lequel j'ai envie d'évoluer et d'enrichir mes
           connaissances.
@@ -114,27 +114,31 @@
     >
       <div
         class="col-span-1 row-start-2 lg:col-span-8 lg:col-start-1 lg:row-start-1"
+        id="img-div1"
       >
         <img
           src="./images/Capture d’écran 2020-10-08 à 15.10.47.png"
           alt=""
           class="rounded-lg w-8/12 mx-auto mb-4 lg:m-0 lg:w-5/12 shadow-xl"
+          id="img1"
         />
         <img
           src="./images/Capture d’écran 2020-10-08 à 15.11.11.png"
           alt=""
           class="rounded-lg w-full lg:w-7/12 lg:ml-40 lg:mt-2 shadow-xl"
+          id="img2"
         />
       </div>
       <div
         class="col-span-1 lg:col-span-4 lg:col-start-9 text-xl font-thin text-gray-800 text-justify"
+        id="text-div1"
       >
-        <p class="py-8">
+        <p class="py-8 text">
           En fin de formation, mon groupe et moi avons pu développer en 10 jours
           une application web la plus complète possible. 10 jours qui nous ont
           permit de présenter Polipédia.
         </p>
-        <p class="py-8">
+        <p class="py-8 text">
           Polipédia est une app Web développée nottament avec Ruby on Rails,
           PostgreSQL, JavaScript, Yarn... Et ayant pour vocation de rendre
           l'accès plus facile aux informations liées aux élus et à la politique,
@@ -149,13 +153,13 @@
       <div
         class="col-span-1 lg:col-span-4 col-start-1 text-xl font-thin text-gray-800 text-justify"
       >
-        <p class="py-8">
+        <p class="py-8 text">
           Depuis la fin du Wagon, j'essaie d'étendre mes connaissances,
           nottament en apprennant React Js ainsi que Node.js, et je suis à la
           recherche d'un premier emploi en tant que développeur, pour avoir la
           chance de progresser encore plus.
         </p>
-        <p class="py-8">
+        <p class="py-8 text">
           J'ai envie d'apprendre de nouvelles technos, d'améliorer mes
           connaissances actuelles et d'en acquérir de nouvelles.
         </p>
@@ -165,11 +169,13 @@
           src="./images/Capture d’écran 2020-10-08 à 15.11.41.png"
           alt=""
           class="rounded-lg w-full my-4 lg:m-0 lg:w-8/12 z-10 shadow-xl"
+          id="img3"
         />
         <img
           src="./images/Capture d’écran 2020-10-08 à 15.11.59.png"
           alt=""
           class="rounded-lg w-full my-4 lg:mt-2 lg:ml-40 lg:w-8/12 z-0 shadow-xl"
+          id="img4"
         />
       </div>
     </div>
@@ -181,29 +187,31 @@
         method="POST"
         class="w-full grid grid-cols-2 grid-rows-6 gap-4"
       >
-        <h2 class="row-span-1 col-span-2 py-2 px-4 bg-orange-500 bg-opacity-25">
+        <h2
+          class="row-span-1 col-span-2 py-2 px-4 bg-orange-500 bg-opacity-25 text"
+        >
           contact
         </h2>
         <input
           type="text"
           name="name"
           placeholder="Nom"
-          class="py-2 px-4 col-span-1 border border-gray-500 focus:outline-none focus:border-orange-500"
+          class="py-2 px-4 col-span-1 border border-gray-500 focus:outline-none focus:border-orange-500 text"
         />
         <input
           type="email"
           name="email"
           placeholder="Email"
-          class="py-2 px-4 col-span-1 border border-gray-500 focus:outline-none focus:border-orange-500"
+          class="py-2 px-4 col-span-1 border border-gray-500 focus:outline-none focus:border-orange-500 text"
         />
         <textarea
           name="message"
           placeholder="Votre message..."
-          class="py-2 px-4 row-span-3 col-span-2 border border-gray-500 focus:outline-none focus:border-orange-500"
+          class="py-2 px-4 row-span-3 col-span-2 border border-gray-500 focus:outline-none focus:border-orange-500 text"
         ></textarea>
         <button
           type="submit"
-          class="row-span-1 col-span-2 bg-blue-900 bg-opacity-25"
+          class="row-span-1 col-span-2 bg-blue-900 bg-opacity-25 text"
         >
           Envoyer votre message
         </button>
