@@ -10,6 +10,21 @@
     />
     <title>David-Alexandre Jungblut</title>
   </head>
+  <div class="hidden lg:block" id="nav-container">
+    <div class="bg"></div>
+    <div class="button" tabindex="0">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div id="nav-content" tabindex="0">
+      <ul>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
   <body class="bg-gray-100">
     <div class="flex justify-center items-center h-screen">
       <img
@@ -48,7 +63,7 @@
       </div>
     </div>
     <!-- Div mon parcours + technos -->
-    <div class="mx-8 md:mx-24 lg:mx-32 text-justify">
+    <div class="mx-8 md:mx-24 lg:mx-32 text-justify" id="parcours">
       <h2 class="text-3xl text-gray-800">Mon parcours</h2>
       <div class="text-xl font-thin text-gray-800">
         <p class="py-8 text">
@@ -184,7 +199,9 @@
       </div>
     </div>
     <!-- Div 3 projets -->
-    <h2 class="mx-8 md:mx-24 lg:mx-32 text-3xl text-gray-800">Mes Projets</h2>
+    <h2 class="mx-8 md:mx-24 lg:mx-32 text-3xl text-gray-800" id="projets">
+      Mes Projets
+    </h2>
     <div
       class="pt-10 mx-8 md:mx-24 lg:mx-32 mb-20 md:mb-24 lg:mb-48 grid grid-cols-1 lg:grid-cols-3 gap-10 font-thin text-justify"
     >
@@ -246,6 +263,7 @@
     <!-- Div Form -->
     <div
       class="w-full lg:w-2/5 px-8 md:px-16 lg:px-0 lg:mx-auto mb-16 md:mb-24 lg:mb-32"
+      id="contact"
     >
       <form
         action="https://getform.io/f/f2a02708-d374-4583-b93b-e3b00995f0ce"
